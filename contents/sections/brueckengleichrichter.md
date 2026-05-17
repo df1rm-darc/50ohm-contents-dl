@@ -16,8 +16,6 @@ In dem nebenstehenden Applet ist ein solcher Brückengleichrichter dargestellt. 
 </margin>
 </webonly>
 
-Am Lastwiderstand $R_L$ liegt eine pulsierende Gleichspannung (DC) an, die aus aufeinanderfolgenden positiven sinusförmigen Halbwellen besteht. Ihre Frequenz beträgt $f=\qty{100}{\hertz}$, da beim Brückengleichrichter auch die negative Halbwelle in den positiven Bereich gespiegelt wird und sich so die Netzfrequenz von $\qty{50}{\hertz}$ verdoppelt.
-
 <tip>
 [picture:67:a_brueckenlgeichrichter_2:Anordnung der Dioden im Brückengleichrichter]
 Beim Brückengleichrichter zeigen die Dioden mit ihren Kathoden zum Pluspol hin und die Anoden zum Minuspol. Man kann sich also merken: Die "Striche" der Dioden treffen sich am Plusausgang. Diese Anordnung darf nicht mit einem Diodenringmischer verwechselt werden, welchen wir noch später kennenlernen werden. 

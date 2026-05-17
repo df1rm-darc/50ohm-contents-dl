@@ -31,9 +31,3 @@ Gleiche Eselsbrücke wie beim Brückengleichrichter: Die beiden Kathoden der Dio
 Wenn zwei Anoden gemeinsam an einem Ausgangspol angeschlossen sind, dann wird dort die pulsierende Gleichspannung negativ gegenüber der Mittelanzapfung des Trafos sein. Beide Halbwellen befinden sich unterhalb der Nulllinie.
 
 [question:AD308]
-
-Wie schon beim Brückengleichrichter, liegt beim Vollweggleichrichter am Lastwiderstand $R_L$ eine pulsierende Gleichspannung (DC) an, die aus aufeinanderfolgenden positiven sinusförmigen Halbwellen besteht. Ihre Frequenz beträgt $f=\qty{100}{\hertz}$, da auch die negative Halbwelle in den positiven Bereich gespiegelt wird und sich so die Netzfrequenz von $\qty{50}{\hertz}$ verdoppelt. Würde man diese pulsierende Gleichspannung über einen Spannungsteiler in einen Verstärker mit Lautsprecher einspeisen, dann könnte man einen $\qty{100}{\hertz}$ Brummton hören.
-
-%TODO $\qty{50}{\hertz}$ und $\qty{100}{\hertz}$ durch anklicken hörbar
-
-[question:AD310]
