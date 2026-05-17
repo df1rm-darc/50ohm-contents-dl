@@ -1,13 +1,15 @@
-Neben den bekannten Bleiakku (Pb), Nickel-Metallhydrid (NiMH) verwenden auch wir in der Funktechnik z.B. bei Portabelbetrieb immer mehr Lithium-Eisen-Phosphat-Mischungen (LiFePO4). Doch schauen wir uns erstmal ein Akku und dessen Aufschriften in Abbildung [ref:a_akku_lifepo4] an.
+Neben den bekannten Bleiakkus (Pb) und Nickel-Metallhydrid-Akkus (NiMH) setzen wir in der Funktechnik, z. B. beim Portabelbetrieb, zunehmend auf Lithium-Eisen-Phosphat-Akkus (LiFePO4). Schauen wir uns dazu zunächst einen Akku und seine Aufschriften in Abbildung [ref:a_akku_lifepo4] an.
+
+<margin>
+[photo:175:a_akku_lifepo4:LiFePO4]
+</margin>
 
 <indepth>
-[photo:175:a_akku_lifepo4:LiFePO4]
-
 * Kapazität: $\qty{4200}{\milli\ampere\hour}$
 * Spannung: 4S1P / $\qty{13,2}{\volt}$
-* Entladung: 30C Constant / 40C Burst
-* Balance Stecker: JST-XH
-* Entlastung Stecker: $\qty{5.5}{\milli\meter}$ Kugel-Stecker
+% * Entladung: 30C Constant / 40C Burst
+% * Balance Stecker: JST-XH
+% * Entlastung Stecker: $\qty{5.5}{\milli\meter}$ Kugel-Stecker
 
 Die für uns wichtigsten Kenndaten sind die Nennspannung $\qty{13,2}{\volt}$ und die Verschaltung 4S1P. Das bedeutet, dass sich die Nennspannung von $\qty{13,2}{\volt}$ aus 4 in Serie bzw. Reihe und 1 mal parallel, also alle 4 in Serie geschalten sind. Üblicherweise besitzen LiFePO4 eine Zellnennspannung von $\qty{3,2}{\volt}$ bis $\qty{3,3}{\volt}$. Und somit ergibt sich $\qty{3,3}{\volt} \cdot 4 = \qty{13,2 }{\volt} \cdot 1 = \qty{13,2}{\volt}$.
 
@@ -17,13 +19,13 @@ Bei einem 4S2P sind insgesamt 8 Zellen verbaut. 4 in Serie und das 2 mal paralle
 
 Bei dem Beispiel-Akku sind $\qty{4200}{\milli\ampere\hour}$ als Nennkapazität angegeben. Die Akku-Nennkapazität $Q$ wird auch als Ladung bezeichnet und in $\unit{\ampere\hour}$ oder $\unit{\milli\ampere\hour}$ angegeben.
 
-[question:AB210]
-
 Für unseren Beispiel-Akku entspricht dies $\qty{4,2}{\ampere\hour}$. Das würde theoretisch bedeuten, wir können unseren Akku $\qty{1}{\hour}$ lang mit $\qty{4,2}{\ampere}$ oder $\qty{2}{\hour}$ lang mit $\qty{2,1}{\ampere}$ usw. belasten.Beschrieben wird dies mit der Formel:
 
 $t=\frac{Q}{I}$
 
 $t=\frac{\qty{4,2}{\ampere\hour}}{\qty{4,2}{\ampere}} = \qty{1}{\hour}$
+
+[question:AB210]
 
 Nun wollen wir aber auch wissen, wie viel elektrische Energie in dem Akku gespeichert ist. Energie ($\unit{\watt\hour}$) ist die Ladung $Q$ ($\unit{\ampere\hour}$) des Akkus multipliziert mit der Gesamtspannung $U$ in Volt.
 
