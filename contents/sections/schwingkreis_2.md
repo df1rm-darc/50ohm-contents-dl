@@ -136,14 +136,6 @@ Mit diesem Wissen können wir nun die folgenden Fragen beantworten.
 [question:AD216] 
 [question:AD217] 
 
-Oft ist es in Schaltungen erforderlich, die Resonanzfrequenz eines Schwingkreises durch eine Steuerspannung zu beeinflussen (z.B. bei einem VCO - Voltage Controlled Oscillator). Hierfür kann man z.B. eine Kapazitätsdiode verwenden, die in Sperrrichtung betrieben wird. Je höher die Gegenspannung der Diode wird, desto geringer wird deren Kapazität, welche durch die Größe der Grenzschicht (P-N-Übergang) bestimmt wird. Die Grenzschicht vergrößert sich bei Vergrößerung der angelegten Sperrspannung, wodurch sich die Kapazität verringert und damit die Frequenz des Schwingkreises gemäß Thomsonscher Schwingungsformel steigt.
-
-Umgekehrt verkleinert sich die Grenzschicht der Kapazitätsdiode bei Verringerung der angelegten Sperrspannung, wodurch sich die Kapazität erhöht und damit die Frequenz des Schwingkreises kleiner wird. Die Sperrspannung kann z. B. durch ein Potentiometer oder einen Steuerkreis erzeugt werden.
-
-%TODO: Evtl. Grafik zu Sperrschicht und Verhalten in Kapazitätsdiode.
-
-[question:AD218] 
-
 Eine Kombination aus Parallel- und Serienschwingkreisen kann bei geeigneter Anordnung als Bandpassfilter verwendet werden. Im Resonanzfall verhalten sich die parallelen Schwingkreise wie hochohmige Widerstände und der Serienschwingkreis wie ein niederohmiger Widerstand.
 
 [question:AD205]
@@ -238,9 +230,6 @@ Bei loser und unterkritischer Kopplung gibt es kaum eine gegenseitige Beeinfluss
 Bei kritischer Kopplung beeinflussen sich beide Schwingkreise gerade so, dass eine im Durchlassbereich flache Durchlasskurve mit geringer Dämpfung entsteht und diese im gewünschten Durchlassbereich völlig eben ist (Plateau). Die Bandbreite der Anordnung ist hierbei größer als bei loser und unterkritischer Kopplung. Hieran ist eine kritische Kopplung auch gut zu erkennen.
 
 Bei überkritischer Kopplung ist die gegenseitige Beeinflussung der beiden Schwingkreise sehr stark, was zu einer starken Änderung beider Resonanzfrequenzen und damit zu einer großen Bandbreite führt. Hierdurch wird die Durchlasskurve im Durchlassbereich stark verzerrt und es bilden sich links und rechts der Mittenfrequenz zwei Resonanzpunkte. Die Durchlasskurve bekommt eine "Delle". Hieran ist die überkritische Kopplung gut zu erkennen.
-
-
-
 
 [question:AD227] 
 [question:AD228] 
